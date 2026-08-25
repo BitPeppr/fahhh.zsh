@@ -1,8 +1,12 @@
 autoload -Uz add-zsh-hook
 
 __error_sound_precmd() {
-	if (( $? != 0 )); then
-		afplay "${0:A:h}/error_sound.mpd" &>/dev/null &!
+	local last_exit=$?
+	local dir="${0:A:h}"
+	local sounds=($dir/*.mp3(N))
+	if (( last_exit != 0 )) && (( ${#sounds} )); then
+		local pick=$sounds[$(( RANDOM % ${#sounds} + 1 ))]
+		afplay "$pick" &>/dev/null &!
 	fi
 }
 
