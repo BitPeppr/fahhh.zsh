@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fahhh"
+version = "0.1.0"
+description = "Motivational sounds for your terminal workflow!"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+
+[project.scripts]
+fahhh = "fahhh.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fahhh"]

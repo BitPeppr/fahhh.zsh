@@ -4,4 +4,4 @@ Every felt slightly down after a terminal error? Python bug, command not found? 
 
 ## Installation
 
-Just download this repo into your zsh skills folder, and source fahhh.zsh in your zshrc. Ordering doesn't matter, the whole script is like 10 lines of code, don't overthink and enjoy!
+Just download this repo into your zsh skills folder, and source fahhh.zsh in your zshrc. Source it as early as is safe for you; stuff like p10k might have hook race conditions.
