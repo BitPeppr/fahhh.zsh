@@ -18,3 +18,7 @@ Just download this repo into your zsh skills folder, and source fahhh.zsh in you
 ## Contributions
 
 - If you want any features added, whether more sound effects or more vibe functionality improvements, feel free to open an issue or a PR! It's a really simple project; no need for a pr template; just add whatever you want, and a somewhat clear description; I'll check it out as soon as I can!
+
+## Sound choices
+
+- Do try to have clean, largely short sound effects, with a clear, derogatory sense. Stuff like the dun-dun-dun sound effect is far too long. Shorter, more humorous boops are also great.
