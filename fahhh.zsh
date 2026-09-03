@@ -1,3 +1,7 @@
+# Fahhh.zsh, motivational terminal sound effects for zsh. If you can optimise the below, please do; I've no idea what I'm doing with zsh scripting, but it seems to work. Hopefully one day it'll actually become reliable / stable. 
+#
+# Oftentimes it seems there's a sort of 'race condition' going on? It seemed to conflict with p10k, among other things. 
+
 autoload -Uz add-zsh-hook
 
 add-zsh-hook -D precmd __fahhh_save_exit 2>/dev/null
